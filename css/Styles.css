@@ -1,3 +1,5 @@
+/* Global */
+
 body{
   background-color: #dfe4ea;
 }
@@ -11,6 +13,20 @@ a:hover{
   text-decoration:none;
   color: #1e90ff;
 }
+footer{
+  background-color: #ffffff;
+}
+footer p{
+  margin: 0;
+  font-size: 1.2rem;
+}
+.contect{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .fixed{
   position: fixed;
   top: 0;
@@ -23,6 +39,9 @@ a:hover{
 .sombra{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 10px 6px rgba(0,0,0,0.23);
 }
+
+/* Top */
+
 .jumbotron{
   margin-bottom: 0;
   background-image: url(../img/fondo-top-min.jpg);
@@ -33,10 +52,9 @@ a:hover{
   color: white;
   font-weight: 350;
 }
-.contenedor{
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
+
+/* NavBar */
+
 .navbar{
   width: 100%;
 }
@@ -45,11 +63,12 @@ a:hover{
 }
 .yo{
   position: absolute;
-  width: 10rem;
-  height: 10rem;
   border-radius: 50%;
   bottom: .5rem;
 }
+
+/* About */
+
 .title-class{
   font-size: 5rem;
   text-align: center;
@@ -66,6 +85,9 @@ a:hover{
   border-radius: 50px;
   margin: 2rem auto;
 }
+
+/* Skills */
+
 .card{
   width: 25rem;
   border-radius: 10px;
@@ -92,22 +114,6 @@ a:hover{
 .button-title[aria-expanded="true"]{
   background-color: #70a1ff;
 }
-.card-title{
-  display: inline;
-  margin-right: 8.5rem;
-}
-.card-body{
-  text-align: center;
-}
-.down{
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: .2rem;
-  border-radius: 50%;
-}
-.down:hover{
-  background-color: #ff7f50;
-}
 .barra{
   display: flex;
   width: 25rem;
@@ -119,13 +125,9 @@ a:hover{
   width: 18rem;
   height: 1.5rem;
 }
-.contect{
-  margin: 2rem;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-}
+
+/* Studies */
+
 .card-studies{
   background-color: #ffffff;
   border-radius: 10px;
@@ -172,10 +174,12 @@ a:hover{
 }
 .logitipo{
   position: absolute;
-  height: 4.5rem;
   left: 28rem;
   bottom: 8rem;
 }
+
+/* Contact */
+
 .icon-contact{
   font-size: 12rem;
   margin-bottom: .5rem;
@@ -189,11 +193,4 @@ a:hover{
 .con p{
   font-size: 1.5rem;
   text-decoration:none;
-}
-footer{
-  background-color: #ffffff;
-}
-footer p{
-  margin: 0;
-  font-size: 1.2rem;
 }
